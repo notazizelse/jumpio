@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://bsg34sclumd5h"]
+
+[ext_resource type="Texture2D" uid="uid://cray0tj118pni" path="res://icon.svg" id="1_ig7tw"]
+
+[node name="Main" type="Node" unique_id=1742917210]
+
+[node name="CharacterBody2D" type="CharacterBody2D" parent="." unique_id=1298229715]
+
+[node name="Sprite2D" type="Sprite2D" parent="CharacterBody2D" unique_id=771036095]
+position = Vector2(316, 472)
+texture = ExtResource("1_ig7tw")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D" unique_id=686755600]
